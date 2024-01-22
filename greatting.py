@@ -9,3 +9,6 @@ if __name__ == '__main__':
 
 def initiator():
     print('to do smth')
+
+
+'add some text'
