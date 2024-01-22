@@ -5,3 +5,7 @@ def greatting_people():
 
 if __name__ == '__main__':
     stanza = greatting_people()
+
+
+def initiator():
+    print('to do smth')
