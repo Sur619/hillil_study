@@ -1,0 +1,13 @@
+
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+{% for p in products %}
+<ul>
+    <li>{{ p.title }}</li>
+    <li>{{ p.content }}</li>
+</ul>
+{% endfor %}
+<h1>{{ title }}</h1>
+</body>

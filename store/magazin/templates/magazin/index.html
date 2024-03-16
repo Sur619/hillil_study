@@ -1,0 +1,15 @@
+<head>
+    <h1>{{ title }}</h1>
+</head>
+<body>
+<ul>
+    {% for p in menu %}
+    <li><a href="{% url p.url_page %}">{{ p.title }}</a></li>
+    {% endfor %}
+
+    <h1>{{product.title}}</h1>
+    <h1>{{product.content}}</h1>
+
+</ul>
+</body>
+
